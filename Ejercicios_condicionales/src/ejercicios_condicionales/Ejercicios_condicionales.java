@@ -98,6 +98,7 @@ public class Ejercicios_condicionales {
             System.out.println("Estas distancias pueden formar un triángulo.");
         }
     }
+    
     public static void main(String[] args) {
        Scanner entrada=new Scanner (System.in);
        /*System.out.print("Ingrese el código ASCII que desea evaluar: ");
@@ -128,6 +129,7 @@ public class Ejercicios_condicionales {
        InteriorCirculo(xcentro,ycentro,radio,xp,yp);
        Cuadrante(xp,yp);*/
        Triangulo(xp,xs,xt);
+       
     }
     
 }
