@@ -107,7 +107,7 @@ public class Arreglos {
         }
         return aux;
     }
-
+    static double area;
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         /*System.out.print("Ingrese la cadena de caracteres que desea analizar: ");
@@ -117,7 +117,7 @@ public class Arreglos {
         contarChar(caracter,cad);
         System.out.print("Ingrese la cadena de caracteres que desea analizar: ");
         String cad=entrada.nextLine();
-        verificar(cad);*/
+        verificar(cad);
 
         System.out.print("Ingrese el tamaño del arreglo: ");
         int n = entrada.nextInt();
@@ -125,11 +125,21 @@ public class Arreglos {
         /*double[] w=leerArreglo(entrada,n);
         prodInterno(v,w);
         prodDirecto(v,w);
-        mediana(v);*/
+        mediana(v);
         double[] y = ceros(v);
         for (int i = 0; i < v.length; i++) {
             System.out.println(y[i]);
         }
+        System.out.print(v);*/
+        double p,b,h;
+        if(area==0){
+            b=3;
+            h=4;
+            p=0.5;
+        area=p*h*b;
+        }
+        System.out.print(area);
+    
 
     }
 
